@@ -10,9 +10,6 @@ bot = telebot.TeleBot("6494717982:AAFfdXGtztaOPpE_ZVHSCza1USLfvUf12rs")
 now = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 print(f"{now} starting")
 
-filewords = open("words.txt")
-wordstext = filewords.read()
-filewords.close()
 
 fn = "baseusers.xlsx"
 wb = load_workbook(fn)
